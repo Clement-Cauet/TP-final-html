@@ -1,0 +1,38 @@
+/* Balise du pied de page */
+.footer {
+    position: absolute;
+	width: 100%;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+	text-align: center;
+    background: white;
+    border-bottom: 1px;
+    border-color: #474747;
+    box-shadow: -5px 5px 10px 5px #00000070;
+}
+
+img {
+    width: 50px;
+}
+
+p.copyright {
+	margin-top: 20px;
+	padding-bottom: 10px;
+	color: #474747;
+}
+
+div {
+	color: #474747;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline;
+}
+
+h3.contact-title {
+    text-align: left;
+    position: relative;
+    left: 10%;
+	color: #474747;
+	margin-top: 5px;
+}
