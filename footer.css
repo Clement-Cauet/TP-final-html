@@ -3,7 +3,6 @@
     position: absolute;
     width: 100%;
     bottom: 0px;
-    right: 0px;
     left: 0px;
 	text-align: center;
     background: white;
@@ -26,8 +25,9 @@ div {
 }
 
 h3.contact-title {
-    text-align: left;
     position: relative;
-    left: 10%;
+    width: 200px;
+    left: 20px;
+    margin-right: 0%;
 	color: #474747;
 }

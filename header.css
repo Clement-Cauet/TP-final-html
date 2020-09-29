@@ -28,7 +28,6 @@ nav ul {
 }
 
 nav > ul::after {
-    content: "";
     display: block;
     clear: both;
 }
