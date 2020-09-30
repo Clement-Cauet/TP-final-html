@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
+        
         <meta charset="UTF-8">
+        
         <title>Wiki</title>
-        <link rel="icon" type="image" href="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/langfr-280px-Twitter_Bird.svg.png"> <!-- Icone de la page -->
-        <link rel="stylesheet" href="wiki.css">
+        
+        <link rel="icon" type="image/png" href="img/icon.png"> <!-- Icone de la page -->
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="wiki.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    
     </head>
     <body>
-        <header>
-            <a href="index.html">Acceuil</a>
-            <a href="wiki.html">Wiki</a>
-            <a href="inscription.html">Inscription</a>
+        <header class="header"> <!-- Entête du site -->
+            <h1 class="titre">Wikoucou</h1>
+            <hr>
+            <div class="menu"> <!-- Menu dans l'entête avec les liens vers les différentes pages du site -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="wiki.html">Wikoucou</a></li>
+                        <li><a href="CV.html">CV</a>
+                            <ul class="CV">
+                                <li><a href="CVfr.html">CV en Français</a></li>
+                                <li><a href="CVen.html">CV in English</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="inscription.html">Inscription</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <footer>
-
+        <footer class="footer"> <!-- Pied de page du site -->
+            <div class="contact"> <!-- Balise de contact -->
+                <h3 class="contact-title">Me contacter</h3>
+                <label class="mail">Adresse mail : ccauet@la-providence.net</label>
+                <label class="github">Github :</label>
+                    <a class="btn" href="https://github.com/Clement-Cauet" src="img/Github.png" alt="Github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                <label class="discord">Discord :</label>
+                    <a class="btn" href="https://discord.com/channels/752636214527393797/752643750634717214">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                <p class="copyright">Copyright &copy; Site des coucous - 2020-2021 - Tous droits réservés</p>
+            </div>
         </footer>
         
     </body>

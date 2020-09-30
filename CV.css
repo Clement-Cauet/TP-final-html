@@ -22,7 +22,7 @@ p {
 }
 
 /* tag for the menu at left of my CV (color, size, position...) */
-.menu {
+.cote {
     text-align: left;
     color: white;
     background-color: blue;
