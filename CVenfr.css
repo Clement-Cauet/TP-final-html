@@ -1,0 +1,112 @@
+p {
+    margin: 0%;
+}
+
+/* tag for the header of my CV (color, size, position...) */
+.intro { 
+    color: white;
+    background-color: gray;
+    width: 900px;
+    height: 148px;
+    position: absolute;
+    margin: 0%;
+}
+
+.name {
+    text-align: center;
+}
+
+.titleprofile {
+    font-weight: bold;
+    margin: 0%;
+}
+
+/* tag for the menu at left of my CV (color, size, position...) */
+.cote {
+    text-align: left;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 600px;
+    top: 156px;
+    position: absolute;
+    margin: 0%;
+}
+
+.center {
+    position: relative;
+    left: 300px;
+    margin: 0%;
+    top: 150px;
+}
+
+/* tag for the center of my CV with my education degrees, adress and missions (color, size, position...) */
+.titleducation {
+    font-weight: bold;
+}
+
+.datebts {
+    position: relative;
+}
+
+.namebts {
+    position: relative;
+    left: 300px;
+    top: -40px;
+}
+
+.adressbts {
+    position: relative;
+    left: 300px;
+    top: -60px;
+}
+
+.pbts {
+    position: relative;
+    left: 300px;
+    top: -80px;
+}
+
+.datebac {
+    position: relative;
+}
+
+.namebac {
+    position: relative;
+    left: 300px;
+    top: -40px;
+}
+
+.adressbac {
+    position: relative;
+    left: 300px;
+    top: -60px;
+}
+
+.pbac {
+    position: relative;
+    left: 300px;
+    top: -80px;
+}
+
+.datebrevet {
+    position: relative;
+}
+
+.namebrevet {
+    position: relative;
+    left: 300px;
+    top: -40px;
+}
+
+.adressbrevet {
+    position: relative;
+    left: 300px;
+    top: -60px;
+}
+
+.pbrevet {
+    position: relative;
+    left: 300px;
+    top: -80px;
+}
