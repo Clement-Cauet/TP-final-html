@@ -2,111 +2,68 @@ p {
     margin: 0%;
 }
 
-/* tag for the header of my CV (color, size, position...) */
-.intro { 
+td {
+    width: 250px;
+    height: 70px;
+}
+
+.main {
+    height: 1350px;
+}
+
+.cv-page {
+    top: 200px;
+    width: 800px;
+    height: 29.5cm;
+    position: relative;
+    left: 20%;
+    border-bottom: 1px;
+    border-color: #474747;
+    box-shadow: -5px 5px 10px 5px #00000070;
+}
+
+/* tag for the colonne at left of my CV (color, size, position...) */
+.colonneGauche { 
     color: white;
-    background-color: gray;
-    width: 900px;
-    height: 148px;
+    background-color: #00006e;
+    width: 250px;
+    height: 29.5cm;
     position: absolute;
     margin: 0%;
+}
+
+.lign-left {
+    width: 150px;
+    margin: 30px;
+}
+
+.photo {
+    width: 250px;
 }
 
 .name {
     text-align: center;
+    margin: 30px;
 }
 
-.titleprofile {
+.colonneContenu {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
     font-weight: bold;
-    margin: 0%;
+    line-height: 19px;
+    font-family: 'Lato';
 }
 
-/* tag for the menu at left of my CV (color, size, position...) */
-.cote {
-    text-align: left;
-    color: white;
-    background-color: blue;
-    width: 200px;
-    height: 600px;
-    top: 156px;
+/* tag for the colonne at right of my CV with my education degrees, adress and missions (color, size, position...) */
+
+.colonneDroite {
+    left: 280px;
     position: absolute;
-    margin: 0%;
+    width: 500px;
 }
 
-.center {
-    position: relative;
-    left: 300px;
-    margin: 0%;
-    top: 150px;
-}
-
-/* tag for the center of my CV with my education degrees, adress and missions (color, size, position...) */
-.titleducation {
-    font-weight: bold;
-}
-
-.datebts {
-    position: relative;
-}
-
-.namebts {
-    position: relative;
-    left: 300px;
-    top: -40px;
-}
-
-.adressbts {
-    position: relative;
-    left: 300px;
-    top: -60px;
-}
-
-.pbts {
-    position: relative;
-    left: 300px;
-    top: -80px;
-}
-
-.datebac {
-    position: relative;
-}
-
-.namebac {
-    position: relative;
-    left: 300px;
-    top: -40px;
-}
-
-.adressbac {
-    position: relative;
-    left: 300px;
-    top: -60px;
-}
-
-.pbac {
-    position: relative;
-    left: 300px;
-    top: -80px;
-}
-
-.datebrevet {
-    position: relative;
-}
-
-.namebrevet {
-    position: relative;
-    left: 300px;
-    top: -40px;
-}
-
-.adressbrevet {
-    position: relative;
-    left: 300px;
-    top: -60px;
-}
-
-.pbrevet {
-    position: relative;
-    left: 300px;
-    top: -80px;
+.lign-right {
+    width: 400px;
+    margin: 10px;
 }

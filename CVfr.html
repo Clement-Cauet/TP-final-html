@@ -1,59 +1,170 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>CV Clément</title>
-        <link rel="stylesheet" href="CVenfr.css">
+        
         <meta charset="UTF-8">
+        
+        <title>CV</title>
+        
+        <link rel="icon" type="image/png" href="img/icon.png"> <!-- Icone de la page -->
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="CVenfr.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    
     </head>
     <body>
-        <div class="intro">
-            <h1 class="name">Cauet Clément</h1>
-            <h4 class="adress"> 4, Rue Janvier Amiens 80000</h4>
-            <h4 class="tel">📞 06.01.05.54.09</h4>
-        </div>
-        <div class="center">
-            <div class="profile">
-                <h3 class="titleprofile">Profil Personnel</h3>
-                <p>Je suis altruiste car je suis bénévole à la Croix Rouge Française.</p>
-                <p>Je suis sportif et investi dans ce que je fais.</p>
+        <header class="header"> <!-- Entête du site -->
+            <h1 class="titre">CV Clément Cauet</h1>
+            <hr>
+            <div class="menu"> <!-- Menu dans l'entête avec les liens vers les différentes pages du site -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="wiki.html">Wiki</a></li>
+                        <li><a href="CV.html">CV</a>
+                            <ul class="CV">
+                                <li><a href="CVfr.html">CV en Français</a></li>
+                                <li><a href="CVen.html">CV in English</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="inscription.html">Inscription</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="education">
-                <h3 class="titleducation">Enseignements</h3>
-                    <div class="bts">
-                        <h4 class="datebts">Depuis Sept 2020</h4>
-                        <h4 class="namebts">Brevet de Technicien Supérieur</h4>
-                        <h4 class="adressbts">La Providence Amiens 80000</h4>
-                        <p class="pbts">J'ai développer du C/C++, des sites web</p>
-                        <p class="pbts">et j'ai fais des bases de données</p>
+        </header>
+        <div class="main">
+            <div class="cv-page">
+                <div class="colonneGauche">
+                    <img class="photo" src="https://cdn.cvdesignr.com/users/5f61d062a4075/3ae6c3ac4ab153ca8f4ed4cf07d58cf35bc0c5d9.png">
+                    <h2 class="name ">Clément Cauet</h2>
+                    <div class="colonneContenu">
+                        <div class="profil">
+                            <p>Né le 13/09/2001</p>
+                            <p>4, Rue Janvier 80000 Amiens</p>
+                            <p>06.73.66.66.09</p>
+                            <p>cauet.clement@gmail.com</p>
+                            <hr class="lign-left">
+                        </div>
+                        <div class="informatique">
+                            <h2 class="titre-info">Informatique</h2>
+                            <p>Développement Web</p>
+                            <p>Programmation C/C++</p>
+                            <hr class="lign-left">
+                        </div>
+                        <div class="langue">
+                            <h2 class="titre-langue">Langues</h2>
+                            <p>Français</p>
+                            <p>Anglais</p>
+                            <hr class="lign-left">
+                        </div>
+                        <div class="interet">
+                            <h2 class="titre-interet">Intêret</h2>
+                            <p >Lecture</p>
+                            <p >Informatique</p>
+                            <p >Sport</p>
+                        </div>
                     </div>
-                    <div class="bac">
-                        <h4 class="datebac">Sept 2017 - Juin 2020</h4>
-                        <h4 class="namebac">Baccaloréat Scientifique</h4>
-                        <h4 class="adressbac">La Providence Amiens 80000</h4>
-                        <p class="pbac">J'ai appris les bases de l'informatique</p>
-                        <p class="pbac">et de l'ingéneurie</p>
-                    </div>
-                    <div class="brevet">
-                        <h4 class="datebrevet">Sept 2012 - June 2017</h4>
-                        <h4 class="namebrevet">Brevet des collèges</h4>
-                        <h4 class="adressbrevet">La Providence Amiens 80000</h4>
-                    </div>            
+                </div>
+                <div class="colonneDroite">
+                    <h2 class="bio">À propos de moi</h2>
+                    <p>Je suis une personne altruiste et sur qui on peut compter car je suis bénévole à la 
+                        Croix-Rouge Française. Je suis quelqu'un de sportif, 
+                        ordonné et investi dans ce que je fais.</p>
+                    <hr class="lign-right">
+                    <h2 class="education">Enseignements</h2>
+                    <table class="table-education">
+                        <tbody>
+                            <tr>
+                                <td>Sept 2020 - Juin 2022</td>
+                                <td><p>Brevet de Technicien Supérieur Systèmes Numériques</p>
+                                    <p>La Providence Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sept 2017 - Juin 2020</td>
+                                <td><p>Baccalauréat Sciences Ingénieur</p>
+                                    <p>La Providence Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Sept 2012 - Juin 2017</td>
+                                <td><p>Brevet des collèges</p>
+                                    <p>La Providence Amiens, France</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="lign-right">
+                    <h2 class="training">Formation</h2>
+                    <table class="table-training">
+                        <tbody>
+                            <tr>
+                                <td>Août  2020</td>
+                                <td><p>Premier Secours en Equipe de niveau 2 (PSE 2)</p>
+                                    <p>Croix Rouge française Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Août  2020</td>
+                                <td><p>Pédagogie Initiale Commune de Formateur (PICF)</p>
+                                    <p>Croix Rouge française Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Oct  2019</td>
+                                <td><p>Initiateur aux Premiers Secours (IPS)</p>
+                                    <p>Croix Rouge française Versailles, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Avr  2019</td>
+                                <td><p>Brevet National de Sécurité et de Sauvetage Aquatique (BNSSA)</p>
+                                    <p>Préfecture de la Somme Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mars  2019</td>
+                                <td><p>Opérateur Radio (OPR)</p>
+                                    <p>Croix Rouge française Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Dec  2018</td>
+                                <td><p>Premiers Secours en Equipe de niveau 1 (PSE 1)</p>
+                                    <p>Protection Civile Amiens, France</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="lign-right">
+                    <h2 class="experience">Experience Professionelle</h2>
+                    <table class="table-experience">
+                        <tbody>
+                            <tr>
+                                <td>Depuis Mars 2019</td>
+                                <td><p>Bénévole Secouriste/Formateur</p>
+                                    <p>Croix-Rouge Française</p>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="cote">
-            <h3 class="skills">Skills</h3>
-                <h4>Développement Web</h4> 
-                <h4>Programmation C/C++</h4>
-            <h3 class="language">Langue</h3>
-                <h4>Français</h4>
-                    <p>Langue natale</p>
-                <h4>Anglais</h4>
-                    <p>B1</p>
-            <h3 class="interests">Centres d'intéret</h3>
-                <h4>Informatique</h4>
-                <h4>Sport</h4>
-                <h4>Lecture</h4>
-        </div>
+        <footer class="footer"> <!-- Pied de page du site -->
+            <div class="contact"> <!-- Balise de contact -->
+                <h3 class="contact-title">Me contacter</h3>
+                <label class="mail">Adresse mail : ccauet@la-providence.net</label>
+                <label class="github">Github :</label>
+                    <a class="btn" href="https://github.com/Clement-Cauet" src="img/Github.png" alt="Github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                <label class="discord">Discord :</label>
+                    <a class="btn" href="https://discord.com/channels/752636214527393797/752643750634717214">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                <p class="copyright">Copyright &copy; Site des coucous - 2020-2021 - Tous droits réservés</p>
+            </div>
+        </footer>        
     </body>
 </html>

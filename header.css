@@ -20,11 +20,13 @@
 
 /* Balise du menu de l'entête */
 nav {
-    margin: 0px 110px 0px 110px;
+    margin: 0px;
 }
 
 nav ul {
     position: relative;
+    float: right;
+    right: 30px;
     margin: 0px;
     padding: 0px;
 }

@@ -1,62 +1,176 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <title>CV Clément</title>
-        <link rel="stylesheet" href="CVenfr.css">
+        
         <meta charset="UTF-8">
+        
+        <title>CV</title>
+        
+        <link rel="icon" type="image/png" href="img/icon.png"> <!-- Icone de la page -->
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="CVenfr.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+    
     </head>
     <body>
-        <div class="intro"> <!-- tag with my name, my adress and my tel -->
-            <h1 class="name">Cauet Clément</h1>
-            <h4 class="adress"> 4, Rue Janvier Amiens 80000</h4>
-            <h4 class="tel">📞 06.01.05.54.09</h4>
-        </div>
-        <div class="center"> <!-- tag for the central part with my personal profile and my education degrees -->
-            <div class="profile"> <!-- tag for my personal profile -->
-                <h3 class="titleprofile">Personal Profile</h3>
-                <p>I am altruistic because I am volunteer at the French Red Cross.</p>
-                <p>I am athletic and invested in what I do.</p>
+        <header class="header"> <!-- Entête du site -->
+            <h1 class="titre">CV Clément Cauet</h1>
+            <hr>
+            <div class="menu"> <!-- Menu dans l'entête avec les liens vers les différentes pages du site -->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="wiki.html">Wiki</a></li>
+                        <li><a href="CV.html">CV</a>
+                            <ul class="CV">
+                                <li><a href="CVfr.html">CV en Français</a></li>
+                                <li><a href="CVen.html">CV in English</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="inscription.html">Inscription</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div class="education"> <!-- tag for my education degrees -->
-                <h3 class="titleducation">Education and Training</h3>
-                    <div class="bts"> <!-- tag for my Two-Year technical degree with the date, the adress and missions -->
-                        <h4 class="datebts">Sept 2020 - Present</h4>
-                        <h4 class="namebts">Two-Year technical degree</h4>
-                        <h4 class="adressbts">La Providence Amiens 80000</h4>
-                        <p class="pbts">I learned the science computer,</p> 
-                        <p class="pbts">I developed in C/C++, Web sites</p>
-                        <p class="pbts">and I created databases</p>
+        </header>
+        <div class="main">
+            <div class="cv-page">
+                <div class="colonneGauche">
+                    <img class="photo" src="https://cdn.cvdesignr.com/users/5f61d062a4075/3ae6c3ac4ab153ca8f4ed4cf07d58cf35bc0c5d9.png">
+                    <h2 class="name ">Clément Cauet</h2>
+                    <div class="colonneContenu">
+                        <div class="profil">
+                            <p>Born in 13/09/2001</p>
+                            <p>4, Rue Janvier 80000 Amiens</p>
+                            <p>06.73.66.66.09</p>
+                            <p>cauet.clement@gmail.com</p>
+                            <hr class="lign-left">
+                        </div>
+                        <div class="informatique">
+                            <h2 class="titre-info">Computer Sciences</h2>
+                            <p>Web Development : Fluent</p>
+                            <p>Programming C/C++ : Intermediate</p>
+                            <hr class="lign-left">
+                        </div>
+                        <div class="langue">
+                            <h2 class="titre-langue">Languages</h2>
+                            <p>French : Native speaker</p>
+                            <p>English : Intermediate</p>
+                            <hr class="lign-left">
+                        </div>
+                        <div class="interet">
+                            <h2 class="titre-interet">Interests</h2>
+                            <p >Reading</p>
+                            <p >Computer Sciences</p>
+                            <p >Sport</p>
+                        </div>
                     </div>
-                    <div class="bac"> <!-- tag for my A-Level with the date, the adress and missions -->
-                        <h4 class="datebac">Sept 2017 - June 2020</h4>
-                        <h4 class="namebac">A-Level</h4>
-                        <h4 class="adressbac">La Providence Amiens 80000</h4>
-                        <p class="pbac">I learned the science computer</p>
-                        <p class="pbac">and the engineering</p>
-                    </div>
-                    <div class="brevet"> <!-- tag for my Techincal School Certificate with the date and the adress -->
-                        <h4 class="datebrevet">Sept 2012 - June 2017</h4>
-                        <h4 class="namebrevet">Techincal School Certificate</h4>
-                        <h4 class="adressbrevet">La Providence Amiens 80000</h4>
-                    </div>            
+                </div>
+                <div class="colonneDroite">
+                    <h2 class="bio">About me</h2>
+                    <p>I am altruistic because I am volunteer at the French Red Cross.
+                        I am athletic and invested in what I do.</p>
+                    <hr class="lign-right">
+                    <h2 class="education">Education</h2> <!-- tag for my education degrees -->
+                    <table class="table-education"> 
+                        <tbody>
+                            <tr> <!-- tag for my Two-Year technical degree with the date, the adress and missions -->
+                                <td>Sept 2020 - Present</td>
+                                <td><p>Two-Year technical degree</p>
+                                    <p>La Providence Amiens, France</p>
+                                    <p>I learned the science computer,</p>
+                                    <p>I developed in C/C++, Web sites</p>
+                                    <p>and I created databases</p>
+                                </td>
+                            </tr>
+                            <tr> <!-- tag for my A-Level with the date, the adress and missions -->
+                                <td>Sept 2017 - June 2020</td>
+                                <td><p>A-Level</p>
+                                    <p>La Providence Amiens, France</p>
+                                    <p>I learned the science computer</p>
+                                    <p>and the engineering</p>
+                                </td>
+                            </tr>
+                            <tr> <!-- tag for my Techincal School Certificate with the date and the adress -->
+                                <td>Sept 2012 - June 2017</td>
+                                <td><p>Techincal School Certificate</p>
+                                    <p>La Providence Amiens, France</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="lign-right">
+                    <h2 class="training">Training</h2>
+                    <table class="table-training">
+                        <tbody>
+                            <tr>
+                                <td>Aug  2020</td>
+                                <td><p>Certificate of Training in First Aid in Team of level 2</p>
+                                    <p>French Red Cross Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Aug  2020</td>
+                                <td><p>Initial Pedagogy Common of Trainer</p>
+                                    <p>French Red Cross Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Oct  2019</td>
+                                <td><p>Trainer of First Aid</p>
+                                    <p>French Red Cross Versailles, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Apr  2019</td>
+                                <td><p>National First Aid and Rescue at Sea Certificate</p>
+                                    <p>Prefecture of the Somme Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mar  2019</td>
+                                <td><p>Radio Operator</p>
+                                    <p>French Red Cross Amiens, France</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Dec  2018</td>
+                                <td><p>Certificate of Training in First Aid in Team of level 1</p>
+                                    <p>Civil Protection Amiens, France</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr class="lign-right">
+                    <h2 class="experience">Professional Experiences</h2>
+                    <table class="table-experience">
+                        <tbody>
+                            <tr>
+                                <td>Since March 2019</td>
+                                <td><p>Volunteer Rescuer/Trainer</p>
+                                    <p>French Red Cross</p>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
-        </div>
-        <div class="cote"> <!-- tag with my skills, my languages and my hobbies -->
-            <h3 class="skills">Skills</h3> <!-- tag for my skills -->
-                <h4>Web Development</h4> 
-                    <p>Fluent</p>
-                <h4>Programming C/C++</h4>
-                    <p>Intermediate</p>
-            <h3 class="language">Language</h3> <!-- tag for my languages --> 
-                <h4>French</h4>
-                    <p>Native speaker</p>
-                <h4>English</h4>
-                    <p>Intermediate</p>
-            <h3 class="interests">Interests</h3> <!-- tag for my hobbies-->
-                <h4>Computer Science</h4>
-                <h4>Sport</h4>
-                <h4>Reading</h4>
-        </div>
+        <footer class="footer"> <!-- Pied de page du site -->
+            <div class="contact"> <!-- Balise de contact -->
+                <h3 class="contact-title">Me contacter</h3>
+                <label class="mail">Adresse mail : ccauet@la-providence.net</label>
+                <label class="github">Github :</label>
+                    <a class="btn" href="https://github.com/Clement-Cauet" src="img/Github.png" alt="Github">
+                        <i class="fab fa-github"></i>
+                    </a>
+                <label class="discord">Discord :</label>
+                    <a class="btn" href="https://discord.com/channels/752636214527393797/752643750634717214">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                <p class="copyright">Copyright &copy; Site des coucous - 2020-2021 - Tous droits réservés</p>
+            </div>
+        </footer>  
     </body>
 </html>
