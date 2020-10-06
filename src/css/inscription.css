@@ -3,3 +3,73 @@
     top: 150px;
     height: 800px;
 }
+
+.form-coucou {
+    position: absolute;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    box-sizing: border-box;
+    background-color: #333333;
+    padding: 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.form-coucou legend{
+	margin: 0;
+	padding: 0 0 20px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+
+.form-coucou label {
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+
+  .form-coucou input, select {
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-coucou input[type=text], .form-coucou input[type=number], .form-coucou input[type=email]{
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: #FFFFFF;
+	outline: none;
+	height: 30px;
+	display: 16px;
+	color: white;
+}
+
+.form-coucou select{
+	margin-top: 10px;
+	padding: 10px, 0;
+}
+
+.form-coucou input[type=submit] {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    outline: none;
+    font-size: 15px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.form-coucou input[type=submit]:hover {
+    background-color: rgba(0, 100, 0, 0.3);
+    color: #FFFFFF;
+    transition: 0.3;
+}
+
+.form-coucou .subtitre {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 25px;
+}
