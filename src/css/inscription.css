@@ -36,7 +36,6 @@
 .form-coucou input, select {
     border-radius: 5px;
     position: relative;
-    top: 10px;
     margin: 10px;
 }
 
@@ -44,15 +43,18 @@
 	border: none;
 	border-bottom: 1px solid white;
 	background-color: #FFFFFF;
-	outline: none;
-	height: 30px;
 	display: 16px;
-	color: white;
+	color: black;
+}
+
+.form-coucou input[type=text],  .form-coucou input[type=email]{
+    width: 200px;
+    height: 30px;
 }
 
 .form-coucou input[type=submit], input[type=reset] {
     border-radius: 5px;
-    border: #FFFFFF;
+    border-color: #474747;
     height: 30px;
     font-size: 15px;
     background-color: #FFFFFF;
@@ -62,8 +64,7 @@
 .form-coucou input[type=submit]:hover, input[type=reset]:hover {
     background-color: #474747;
     color: #FFFFFF;
-    border: #FFFFFF;
-    transform: scale(1.1);
+    border-color: #FFFFFF;
     transition: 0.3s;
 }
 
