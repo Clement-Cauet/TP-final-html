@@ -35,35 +35,37 @@
         </header>
         <div class="main">
         <form class="form-coucou"> <!-- Balise du formulaire -->
-            <fieldset>
-              <legend>Inscription pour les Coucou</legend>
-                <div class="nom-coucou"> <!-- Balise profil avec l'entrée du nom et de l'espèce -->
+            <fieldset>              
+                <div> <!-- Balise profil avec l'entrée du nom et de l'espèce -->
+                    <legend>Inscription pour les Coucou</legend> 
                     <label for="name">Entrez votre nom :</label>
                     <input type="text" name="name" id="name" required>
+                </div>    
+                <div>
                     <label for="espece">Entrez votre espece :</label>
                     <input type="text" name="espece" id="espece" required>
-                </div>
-              <legend>Sexe</legend>
-                <div class="aile"> <!-- Balise choix du nombre d'ailes restante -->         
+                </div>              
+                <div> <!-- Balise choix du nombre d'ailes restante -->         
+                  <legend>Sexe</legend>
                   <label for="title_1">
-                    <input type="radio" id="title" name="title" value="aileG" >
+                    <input type="radio" id="title" name="title" value="male" >
                     Male
                   </label>
                   <label for="title_2">
-                    <input type="radio" id="title" name="title" value="aileD">
+                    <input type="radio" id="title" name="title" value="femelle">
                     Femelle
                   </label>
-                  <label for="title_1">
-                    <input type="radio" id="title" name="title" value="aile2" >
+                  <label for="title_3">
+                    <input type="radio" id="title" name="title" value="nonGenre" >
                     Non genré
                   </label>
                 </div>
-                <div class="ecoucou">
+                <div>
                   <label for="name">Entrez votre adresse ecoucou :</label> <!-- Balise email avec l'entrée de l'adresse ecoucou -->
                   <input type="text" name="ecoucou" id="ecoucou" required>
-                </div>
-              <legend>Date d'éclosion</legend>
-                <div class="menu-deroulant"> <!-- Balise de menu déroulant pour la date d'éclosion -->      
+                </div>              
+                <div> <!-- Balise de menu déroulant pour la date d'éclosion -->      
+                  <legend>Date d'éclosion</legend>
                   <select name="numerodate" size="1">
                     <option></option>
                     <option>1</option>
@@ -128,9 +130,11 @@
                     <option>2010</option>
                   </select>
                 </div>
-              <div class="adresse"> <!-- Balise adresse avec du nom de la forêt et du numéro de l'arbre -->
+              <div> <!-- Balise adresse avec du nom de la forêt et du numéro de l'arbre -->
                   <label for="foret">Entrez le nom de votre forêt :</label>
                   <input type="text" name="foret" id="foret" required>
+              </div>    
+              <div>
                   <label for="arbre">Entrez le numéro de votre arbre :</label>
                   <input type="text" name="arbre" id="arbre" required>
               </div>
