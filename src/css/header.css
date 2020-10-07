@@ -62,7 +62,7 @@ nav ul > li > a:hover {
     text-decoration: none ;
 }
 
-/* Sous menu du menu de l'entête */
+/* Sous menu du menu de l'entête CV */
 .CV {
     display: none;
 }
@@ -103,6 +103,51 @@ nav li:hover .CV {
 }
 
 .CV a:hover {
+    color: #474747;
+    transition: 0.3s;
+}
+
+/* Sous menu du menu de l'entête wiki */
+.wiki {
+    display: none;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav li:hover .wiki {
+    display: inline-block;
+    position: absolute;
+    top: 28px;
+    left : 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+
+.wiki li a {
+    padding: 20px 30px;
+    background-color: #474747;
+    border-radius: 5px;
+    border: solid;
+    border-color: #474747;
+    border-width: 1px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11.7px;
+    position: relative;
+    width: 90px;
+    left: -30px;
+}
+
+.wiki li a:hover {
+    background-color: white;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.wiki a:hover {
     color: #474747;
     transition: 0.3s;
 }
