@@ -1,5 +1,105 @@
 .main {
     position: relative;
     top: 150px;
-    height: 1200px;
+    height: 1800px;
+}
+
+.nom {
+    position: relative;
+    left: 5%;
+    width: 150px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #474747;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+.imgCoucou {
+    position: relative;
+    top: 50px;
+    left: 10%;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+div .infosCoucou {
+    position: relative;
+    top: -200px;
+    left: 50%;
+    width: 400px;
+    text-align: left;
+    padding: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #474747;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+.infosCoucou td {
+    width: 200px;
+    height: 50px;
+}
+
+.bio {
+    position: relative;
+    top: -100px;
+    left: 10%;
+    width: 70%;
+    text-align: left;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #474747;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+.tablecoucou {
+    position: relative;
+    left: 5%;
+}
+
+.tablecoucou td {
+    width: 400px;
+}
+
+.tablecoucou td p {
+    text-align: center;
+}
+
+.Coucounaissance {
+    position: relative;
+    border-radius: 5px;
+    left: 10%;
+    height: 200px;
+}
+
+.Coucoupoussin {
+    position: relative;
+    border-radius: 5px;
+    left: 30%;
+    height: 200px;
+}
+
+.habitat {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    width: 70%;
+    text-align: left;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #474747;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+.mapCoucou {
+    position: relative;
+    border-radius: 5px;
+    left: 30%;
+    height: 200px;
 }
