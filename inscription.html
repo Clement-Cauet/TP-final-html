@@ -33,6 +33,7 @@
                                 <li><a href="CVen.html">CV in English</a></li>
                             </ul>
                         </li>
+                        <li><a href="Galerie.html">Galerie</a></li>
                         <li><a href="inscription.html">Inscription</a></li>
                     </ul>
                 </nav>
@@ -41,15 +42,15 @@
         <div class="main">
         <form class="form-coucou"> <!-- Balise du formulaire -->
             <fieldset>              
-                <div> <!-- Balise profil avec l'entrée du nom et de l'espèce -->
-                    <label for="name">Entrez votre nom :</label>
+                <div> <!-- Balise profil avec l'entrée du prénom et de l'espèce (prénom et nom) -->
+                    <label for="name">Entrez votre prénom :</label>
                     <input type="text" name="name" id="name" required>
                 </div>    
                 <div>
                     <label for="espece">Entrez votre espece :</label>
                     <input type="text" name="espece" id="espece" required>
                 </div>              
-                <div> <!-- Balise choix du nombre d'ailes restante -->         
+                <div> <!-- Balise choix du sexe -->         
                   <legend>Sexe :</legend>
                   <label for="title_1">
                     <input type="radio" id="title" name="title" value="male" >
@@ -68,7 +69,7 @@
                   <label for="name">Entrez votre adresse ecoucou :</label> <!-- Balise email avec l'entrée de l'adresse ecoucou -->
                   <input type="text" name="ecoucou" id="ecoucou" required>
                 </div>              
-                <div> <!-- Balise de menu déroulant pour la date d'éclosion -->      
+                <div> <!-- Balise de menu déroulant pour la date d'éclosion (date de naissance) -->      
                   <legend>Date d'éclosion :</legend>
                   <select name="numerodate" size="1">
                     <option></option>
@@ -134,7 +135,7 @@
                     <option>2010</option>
                   </select>
                 </div>
-              <div> <!-- Balise adresse avec du nom de la forêt et du numéro de l'arbre -->
+              <div> <!-- Balise adresse avec du nom de la forêt et du numéro de l'arbre (adresse) -->
                   <label for="foret">Entrez le nom de votre forêt :</label>
                   <input type="text" name="foret" id="foret" required>
               </div>    
@@ -152,15 +153,17 @@
           <footer class="footer"> <!-- Pied de page du site -->
             <div class="contact"> <!-- Balise de contact -->
                 <h3 class="contact-title">Me contacter</h3>
-                <label class="mail">Adresse mail : ccauet@la-providence.net</label>
-                <label class="github">Github :</label>
-                    <a class="btn" href="https://github.com/Clement-Cauet" src="img/Github.png" alt="Github">
-                        <i class="fab fa-github"></i>
-                    </a>
-                <label class="discord">Discord :</label>
-                    <a class="btn" href="https://discord.com/channels/752636214527393797/752643750634717214">
-                        <i class="fab fa-discord"></i>
-                    </a>
+                    <label class="mail">Adresse mail : ccauet@la-providence.net</label>
+                    <label class="github">Github :
+                        <a class="btn" href="https://github.com/Clement-Cauet" src="img/Github.png" alt="Github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </label>
+                    <label class="discord">Discord :
+                        <a class="btn" href="https://discord.com/channels/752636214527393797/752643750634717214">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </label>
                 <p class="copyright">Copyright &copy; Site des coucous - 2020-2021 - Tous droits réservés</p>
             </div>
           </footer>        

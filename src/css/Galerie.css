@@ -1,0 +1,51 @@
+/* Balise de la page du site */
+
+body {
+    background-color: #DEDEDE;
+}
+
+.main {
+    position: relative;
+    height: 100%;
+    min-height: 900px;
+    margin-top: 200px;
+}
+
+/* Balise pour les images de la galerie */
+
+.image {
+    position: relative;
+    width: 910px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-color: #474747;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+/* Condition si la largeur de l'écran fait 1000px ou moins */
+
+@media only screen and (max-width: 1000px) {
+    .image {
+        width: 605px;
+    }
+}
+
+/* Condition si la largeur de l'écran fait 715px ou moins */
+
+@media only screen and (max-width: 715px) {
+    
+    .main {
+        margin-top: 250px;
+    }
+
+    .image {
+        width: 80%;
+    }
+    
+    .image img {
+        width: 100%;
+    }
+}

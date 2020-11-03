@@ -4,7 +4,7 @@
         
         <meta charset="UTF-8">
         
-        <title>Accueil</title>
+        <title>Description</title>
         
         <link rel="icon" type="image/png" href="src/img/icon.png"> <!-- Icone de la page -->
         <link rel="stylesheet" type="text/css" href="src/css/header.css">
@@ -33,16 +33,17 @@
                                 <li><a href="CVen.html">CV in English</a></li>
                             </ul>
                         </li>
+                        <li><a href="Galerie.html">Galerie</a></li>
                         <li><a href="inscription.html">Inscription</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <div class="main">
+        <div class="main"> <!-- Balise du contenu du site -->
                 <h2 class="nom">Le Coucou</h2>
                 <img class="imgCoucou" src="src/img/Coucou.jpg" alt="Image de coucou">
-                <div class="infosCoucou">
-                    <table>
+                <div class="infosCoucou"> <!-- Balise d'information -->
+                    <table> <!-- Tableau d'information -->
                         <tr>
                             <td>Taille: 30 cm</td>
                             <td>Poids: 110 g</td>
@@ -55,9 +56,12 @@
                             <td>Classe: Aves</td>
                             <td>Genre: Cuculus</td>
                         </tr>
+                        <tr>    
+                            <td colspan="2"><audio class="audio-coucou" src="src/sound/coucou_gris.mp3"controls></audio></td>
+                        </tr>
                     </table>
                 </div>
-            <div class="bio">
+            <div class="bio"> <!-- Balise de la biographie -->
                 <h2>Biographie</h2>
                 <p>Le Coucou gris (Cuculus canorus) est une espèce d'oiseau de la famille des cuculidés. 
                     Il doit son nom vernaculaire à son chant. Son comportement est caractérisé par la pratique 
@@ -70,18 +74,16 @@
                     est encore aveugle. Cela focalise l'attention des parents adoptifs sur le bébé coucou,
                     qui ne se gène pas pour s'en mettre plein la pense. Au bout d'un mois il devient deux
                     fois plus gros que ses parents adoptifs.</p>
-                <table class="tablecoucou">
-                    <tr>
-                        <td><img class="Coucounaissance" src="src/img/Coucounaissance.jpg" alt="Image de coucou à la naissance"></td>
-                        <td><img class="Coucoupoussin" src="src/img/Coucoupoussin.jpg" alt="Image d'un poussin coucou"></td>
-                    </tr>
-                    <tr>
-                        <td><p class="naissance">Image de coucou à la naissance</p></td>
-                        <td><p class="poussin">Image d'un poussin coucou</p></td>
-                    </tr>
-                </table>
+                <div class="imageCoucou1">
+                    <img class="Coucounaissance" src="src/img/Coucounaissance.jpg" alt="Image de coucou à la naissance">
+                    <p class="naissance">Image de coucou à la naissance</p>
+                </div>
+                <div class="imageCoucou2">
+                    <img class="Coucoupoussin" src="src/img/Coucoupoussin.jpg" alt="Image d'un poussin coucou">
+                    <p class="poussin">Image d'un poussin coucou</p>
+                </div>
             </div>
-            <div class="habitat">
+            <div class="habitat"> <!-- Balise de l'habitat -->
                 <h2>Habitat et Migration</h2>
                 <p>Le Coucou se trouve partout: dans les plaines, dans les vallées ou dans les montagnes.</p>
                 <p>C'est un oiseau migrateur qui se reproduit au printemps dans nos belle contrée d'Europe,

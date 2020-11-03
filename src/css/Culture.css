@@ -1,5 +1,98 @@
+/* Balise de la page du site */
+
+body {
+    background-color: #DEDEDE;
+}
+
 .main {
     position: relative;
-    top: 150px;
-    height: 700px;
+    height: 100%;
+    min-height: 1060px;
+    margin-top: 200px;
+}
+
+/* Balise contenu du site */
+
+.nom {
+    position: relative;
+    left: 5%;
+    width: 300px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #474747;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+.culture {
+    position: relative;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #474747;
+    border-radius: 5px;
+    box-shadow: 6px 6px 6px #00000070;
+}
+
+.img-repiquage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.p-repiquage {
+    text-align: center;
+}
+
+.img-horloge {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.p-horloge {
+    text-align: center;
+}
+
+.boite-a-coucou {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+/* Condition si la largeur de l'écran fait 715px ou moins */
+
+@media only screen and (max-width: 715px) {
+
+    .main {
+        margin-top: 250px;
+    }
+
+    .nom {
+        left: 0%;
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .culture {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .img-repiquage {
+        width: 100%;
+    }
+
+    .boite-a-coucou {
+        width: 100%;
+    }
 }

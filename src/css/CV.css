@@ -1,14 +1,22 @@
+/* Balise de la page du site */
+
+body {
+    background-color: #DEDEDE;
+}
+
 .main {
     position: relative;
-    top: 150px;
-    height: 700px;
+    height: 100%;
+    min-height: 400px;
+    margin-top: 200px;
 }
+
+/* Balise du boutton pour le CV en Français */
 
 .CVfr {
     position: relative;
-    top: 50px;
+    left: 15%;
     float: left;
-    left: 20%;
 }
 
 .CVfr button {
@@ -26,11 +34,16 @@
     transition: 0.3s;
 }
 
+.CVfr p {
+    color: white;
+}
+
+/* Balise du boutton pour le CV en Anglais */
+
 .CVen {
     position: relative;
-    top: 50px;
+    right: 15%;
     float: right;
-    right: 20%;
 }
 
 .CVen button {
@@ -46,4 +59,44 @@
 .CVen button:hover {
     transform: scale(1.1);
     transition: 0.3s;
+}
+
+.CVen p {
+    color: white;
+}
+
+/* Condition si la largeur de l'écran fait 1000px ou moins */
+
+@media only screen and (max-width: 1000px) {
+
+    .main {
+        margin-top: 250px;
+    }
+
+    .CVfr {
+        float: none;
+        left: 0%;
+        margin-bottom: 50px;
+    }
+
+    .CVfr button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .CVen {
+        float: none;
+        right: 0%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+    .CVen button {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

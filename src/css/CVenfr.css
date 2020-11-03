@@ -1,3 +1,9 @@
+/* Tag for the page of the Web site */
+
+body {
+    background-color: #DEDEDE;
+}
+
 p {
     margin: 0%;
 }
@@ -8,15 +14,21 @@ td {
 }
 
 .main {
-    height: 1350px;
+    position: relative;
+    height: 100%;
+    min-height: 1114px;
+    margin-top: 200px;
 }
 
+/* Tag for the CV */
+
 .cv-page {
-    top: 200px;
     width: 800px;
     height: 29.5cm;
     position: relative;
-    left: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 1px;
     border-color: #474747;
     box-shadow: -5px 5px 10px 5px #00000070;
@@ -46,6 +58,10 @@ td {
     margin: 30px;
 }
 
+.profil {
+    width: 200px;
+}
+
 .colonneContenu {
     position: relative;
     left: 10px;
@@ -66,4 +82,79 @@ td {
 .lign-right {
     width: 400px;
     margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colonneDroite p {
+    width: 500px;
+}
+
+.colonneDroite td p {
+    width: 250px;
+}
+
+/* Condition if the width of the page do 900px or fewer*/
+
+@media only screen and (max-width: 900px) {
+
+    td {
+        width: 40%;
+    }
+    
+    .cv-page {
+        width: 90%;
+        height: 40cm;
+    }
+
+    .colonneGauche {
+        width: 25%;
+        height: 40cm;
+    }
+
+    .lign-left {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .name {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .profil {
+        width: 90%;
+    }
+
+    .colonneDroite {
+        width: 75%;
+        left: 30%;
+    }
+
+    .lign-right {
+        width: 60%;
+    }
+
+    .colonneDroite p {
+        width: 90%;
+    }
+
+    .colonneDroite td p {
+        width: 80%;
+    }
+}
+
+/* Condition if the width of the page do 715px or fewer*/
+
+@media only screen and (max-width: 715px) {
+
+    .main {
+        margin-top: 250px;
+    }
 }
