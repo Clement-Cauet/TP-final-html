@@ -25,11 +25,19 @@ body {
     box-shadow: 6px 6px 6px #00000070;
 }
 
+.image img:hover {
+    width: 50%;
+}
+
 /* Condition si la largeur de l'écran fait 1000px ou moins */
 
 @media only screen and (max-width: 1000px) {
     .image {
         width: 605px;
+    }
+
+    .image img:hover {
+        width: unset;
     }
 }
 
@@ -46,6 +54,10 @@ body {
     }
     
     .image img {
+        width: 100%;
+    }
+
+    .image img:hover {
         width: 100%;
     }
 }
