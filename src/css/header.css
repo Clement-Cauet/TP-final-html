@@ -1,11 +1,12 @@
 /* Balise pour l'entête du site */
 .header {
     position: absolute;
+    display: block;
     top: 0px;
     right: 0px;
     left: 0px;
     width: 100%;
-    height: 125px;
+    min-height: 125px;
     background-color: #474747;
     border-bottom: 1px;
     border-color: #474747;
@@ -19,9 +20,6 @@
 }
 
 /* Balise du menu de l'entête */
-nav {
-    margin: 0px;
-}
 
 nav ul {
     position: relative;
@@ -86,7 +84,7 @@ nav li:hover .CV {
     background-color: #474747;
     border-radius: 5px;
     border: solid;
-    border-color: #474747;
+    border-color: white;
     border-width: 1px;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -98,6 +96,7 @@ nav li:hover .CV {
 
 .CV li a:hover {
     background-color: white;
+    border-color: #474747;
     transition: 0.3s;
     transform: scale(1);
 }
@@ -131,7 +130,7 @@ nav li:hover .wiki {
     background-color: #474747;
     border-radius: 5px;
     border: solid;
-    border-color: #474747;
+    border-color: white;
     border-width: 1px;
     color: white;
     font-family: 'Open Sans', sans-serif;
@@ -143,6 +142,7 @@ nav li:hover .wiki {
 
 .wiki li a:hover {
     background-color: white;
+    border-color: #474747;
     transition: 0.3s;
     transform: scale(1);
 }
@@ -150,4 +150,31 @@ nav li:hover .wiki {
 .wiki a:hover {
     color: #474747;
     transition: 0.3s;
+}
+
+/* Condition si la largeur de l'écran fait 715px ou moins */
+
+@media only screen and (max-width: 715px) {
+
+    .titre {
+        font-size: 40px;
+    }
+    
+    nav ul {
+        right: 0px;
+        
+    }
+
+    nav ul > li > a {
+        font-size: 16px;
+    }
+
+    .CV li a {
+        font-size: 16px;
+    }
+
+    .wiki li a {
+        font-size: 16px;
+    }
+    
 }

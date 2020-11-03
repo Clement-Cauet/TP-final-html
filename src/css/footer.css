@@ -1,8 +1,12 @@
 /* Balise du pied de page */
+
 .footer {
-    position: absolute;
+    position: relative;
+    display: block;
     width: 100%;
     left: 0px;
+    bottom: 0%;
+    margin-top: 50px;
 	text-align: center;
     background: #474747;
     border-bottom: 1px;
@@ -14,13 +18,16 @@
 h3.contact-title {
     position: relative;
     width: 200px;
-    left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     top: 10px;
-    margin: 0%;
 	color: white;
 }
 
 .footer label {
+    top: 10px;
+    display: inline;
     margin-left: 50px;
     font-weight: bold;
 }
@@ -63,4 +70,19 @@ p.copyright {
     margin-right: 20px; 
 	color: white;
     display: inline;
+}
+
+/* Condition si la largeur de l'écran fait 715px ou moins */
+
+@media only screen and (max-width: 715px) {
+    .footer label {
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+        top: 10px;
+        width: 300px;
+    }
+
 }
